@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-03T09:04:33Z" name="Default suite" finished-at="2023-07-03T09:05:07Z" duration-ms="34706">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRunner@6ccdb29f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-07-03T09:04:33Z" name="Default test" finished-at="2023-07-03T09:05:07Z" duration-ms="34706">
+      <class name="parallel.ParallelRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:parallel.ParallelRunner@6ccdb29f]" started-at="2023-07-03T09:04:33Z" name="setUpClass" finished-at="2023-07-03T09:04:34Z" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRunner@6ccdb29f]" started-at="2023-07-03T09:04:34Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-03T09:05:00Z" duration-ms="25732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Manager Page Title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manager Page Features]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRunner@6ccdb29f]" started-at="2023-07-03T09:04:34Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-03T09:05:00Z" duration-ms="26456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRunner@6ccdb29f]" started-at="2023-07-03T09:04:34Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-03T09:05:00Z" duration-ms="26370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Manager Section Counts"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manager Page Features]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRunner@6ccdb29f]" started-at="2023-07-03T09:04:34Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-03T09:04:58Z" duration-ms="24226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRunner@6ccdb29f]" started-at="2023-07-03T09:04:34Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-03T09:04:57Z" duration-ms="22806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Forgot Password link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.ParallelRunner@6ccdb29f]" started-at="2023-07-03T09:05:00Z" name="tearDownClass" finished-at="2023-07-03T09:05:07Z" duration-ms="7004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallel.ParallelRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
